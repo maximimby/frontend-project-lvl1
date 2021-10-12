@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Mind Games is a set of five console games, built on the principle of popular mobile brain-boosting applications",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
