@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
-import greeting from './cli.js';
+import { greeting } from './cli.js';
 
-export default (startMessage, getQuestionAndCorrectAnswer) => {
+export const createGame = (startMessage, getQuestionAndCorrectAnswer) => {
   const game = () => {
     const userName = greeting();
     console.log(startMessage);
